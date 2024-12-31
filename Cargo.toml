@@ -1,0 +1,15 @@
+[package]
+name = "data_structure"
+version = "0.1.0"
+edition = "2021"
+
+
+[[bin]]
+name = "build_in_hash"
+path = "chapter_6_hash/build_in_hash.rs"
+
+[[bin]]
+name = "array_hash"
+path = "chapter_6_hash/array_hash.rs"
+
+[dependencies]
