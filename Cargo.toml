@@ -16,4 +16,7 @@ path = "chapter_6_hash/array_hash.rs"
 name = "hash_map_chaining"
 path = "chapter_6_hash/hash_map_chaining.rs"
 
+[[bin]]
+name = "hash_map_open_address"
+path = "chapter_6_hash/hash_map_open_address.rs"
 [dependencies]
