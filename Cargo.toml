@@ -27,4 +27,8 @@ path = "chapter_7_tree/binary_tree.rs"
 name = "binary_tree_bfs"
 path = "chapter_7_tree/binary_tree_bfs.rs"
 
+
+[[bin]]
+name = "binary_tree_dfs"
+path = "chapter_7_tree/binary_tree_dfs.rs"
 [dependencies]
