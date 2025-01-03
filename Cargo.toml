@@ -23,5 +23,8 @@ path = "chapter_6_hash/hash_map_open_address.rs"
 [[bin]]
 name = "binary_tree"
 path = "chapter_7_tree/binary_tree.rs"
+[[bin]]
+name = "binary_tree_bfs"
+path = "chapter_7_tree/binary_tree_bfs.rs"
 
 [dependencies]
