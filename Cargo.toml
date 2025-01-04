@@ -40,6 +40,9 @@ path = "chapter0_leetcode/_389_find_diff.rs"
 name = "count_bits"
 path = "chapter0_leetcode/_383_count_bits.rs"
 
+[[bin]]
+name = "binary_tree_dfs_iter"
+path = "chapter_7_tree/binary_tree_dfs_iter.rs"
 
 
 [dependencies]
