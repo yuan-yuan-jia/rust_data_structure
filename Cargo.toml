@@ -53,4 +53,8 @@ path = "chapter_7_tree/binary_search_tree.rs"
 name = "remove_dup"
 path = "chapter0_leetcode/_1047_remove_dup.rs"
 
+[[bin]]
+name = "help"
+path = "chapter_8_heap/heap.rs"
+
 [dependencies]
