@@ -54,6 +54,14 @@ name = "remove_dup"
 path = "chapter0_leetcode/_1047_remove_dup.rs"
 
 [[bin]]
+name = "product_except_self"
+path = "chapter0_leetcode/_238_product_except_self.rs"
+
+[[bin]] 
+name = "majority_element"
+path = "chapter0_leetcode/_169_majority_element.rs"
+
+[[bin]]
 name = "help"
 path = "chapter_8_heap/heap.rs"
 
