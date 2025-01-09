@@ -69,4 +69,8 @@ path = "chapter_8_heap/heap.rs"
 name = "my_heap"
 path = "chapter_8_heap/my_heap.rs"
 
+[[bin]]
+name = "prefix_string"
+path = "chapter0_leetcode/_1961_prefix_string_.rs"
+
 [dependencies]
