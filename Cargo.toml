@@ -65,4 +65,8 @@ path = "chapter0_leetcode/_169_majority_element.rs"
 name = "help"
 path = "chapter_8_heap/heap.rs"
 
+[[bin]]
+name = "my_heap"
+path = "chapter_8_heap/my_heap.rs"
+
 [dependencies]
