@@ -73,4 +73,12 @@ path = "chapter_8_heap/my_heap.rs"
 name = "prefix_string"
 path = "chapter0_leetcode/_1961_prefix_string_.rs"
 
+[[bin]]
+name = "insertion_sort"
+path = "chapter_11_sort/insertion_sort.rs"
+
+[[bin]]
+name = "quick_sort"
+path = "chapter_11_sort/quick_sort.rs"
+
 [dependencies]
