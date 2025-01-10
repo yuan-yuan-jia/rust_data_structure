@@ -35,6 +35,40 @@ impl QuickSort {
 }
 
 
+//===================
+// ignore, 忽略下面的代码。只是为了测试
+//===================
+
+
+/*二分查找：问题f(i,j) */
+fn dfs(nums: &[i32], target: i32, i: i32, j: i32) -> i32 {
+    // 若区间为空，代表无目标元素，则返回-1
+    if i > j {
+        return  -1;
+    }
+    let m = i + (i - j) / 2;
+    if nums[m as usize] < target {
+        // 递归子问题 f(m + 1, j)
+        return dfs(nums, target, m + 1, j);
+    }else if nums[m as usize] > target {
+        // 递归子问题 f(m + 1, j)
+        return dfs(nums, target, i, m- 1);
+    }else {
+        return m;
+    }
+}
+
+/*二分查找 */
+fn binary_search(nums: &[i32], target: i32) -> i32 {
+    let n = nums.len() as i32;
+    // 求解问题 f(0, n-1)
+    dfs(nums,target, 0, n - 1)
+}
+
+
+//===================
+
+
 /*Driver Code */
 fn main() {
     /*快速排序 */
