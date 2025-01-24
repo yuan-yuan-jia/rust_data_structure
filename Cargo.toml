@@ -81,4 +81,12 @@ path = "chapter_11_sort/insertion_sort.rs"
 name = "quick_sort"
 path = "chapter_11_sort/quick_sort.rs"
 
+[[bin]]
+name = "permutations_i"
+path = "chapter_13_backtracking/permutations_i.rs"
+
+[[bin]]
+name = "permutations_ii"
+path = "chapter_13_backtracking/permutations_ii.rs"
+
 [dependencies]
